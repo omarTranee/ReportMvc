@@ -1,0 +1,93 @@
+﻿namespace ReportMvc.Migrations
+{
+    using System;
+    using System.Data.Entity.Migrations;
+    
+    public partial class addDataToTable : DbMigration
+    {
+        public override void Up()
+        {
+            Sql(@"
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+                INSERT INTO Students (Name,Semester) VALUES ('Omar','Meddle')
+
+");
+        }
+        
+        public override void Down()
+        {
+        }
+    }
+}
